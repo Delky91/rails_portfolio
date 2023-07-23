@@ -1,24 +1,20 @@
-# README
+## Porfolio Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Author: Luis Miño Bustos
 
-Things you may want to cover:
+# Resume
 
-* Ruby version
+Page made with rails for the ROR bootcamp
 
-* System dependencies
+# How to run
 
-* Configuration
+- Clone https://github.com/Delky91/rails_portfolio.git
+- Use the terminal to travel to the proyect folder
+- Run bundle install in the terminal
+- Run rails s
+- Go to the link show in the terminal
 
-* Database creation
+# Made with:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby version 3.2.2
+- Rails version 7.0.6
