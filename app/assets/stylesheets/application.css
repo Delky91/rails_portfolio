@@ -24,10 +24,23 @@ nav {
 	background-color: rgb(46, 45, 45);
 }
 
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+a:hover {
+	color: cadetblue;
+}
+
 .navbar-nav a {
 	color: aliceblue;
 }
 
 .navbar-nav a:hover {
 	color: cadetblue;
+}
+
+.card img {
+	height: 200px;
 }

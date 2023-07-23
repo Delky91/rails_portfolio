@@ -1,2 +1,51 @@
-<h1>Pages#projects</h1>
-<p>Find me in app/views/pages/projects.html.erb</p>
+<section class="container">
+	<div class="text-center mt-3">
+		<h2 class="display-6">My Projects</h2>
+	</div>
+
+	<!-- CARDS -->
+
+	<div>
+		<div class="card-group">
+			<div class="card">
+				
+                <%= image_tag 'musikalic.png', class:"card-img-top" %>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">
+						Web aplication made with React and the Shazam Api
+					</p>
+				</div>
+                <div class="card-footer">
+                    <%= link_to 'See More', 'https://github.com/Delky91/Musikalic', class:"text-primary" %>
+                </div>
+			</div>
+			<div class="card">
+				<%= image_tag 'viajesChile.png', class:"card-img-top" %>
+				<div class="card-body">
+					<h5 class="card-title">Viajes Chile</h5>
+					<p class="card-text">
+						Landing page made with html, CSS, bootstrap, Js
+					</p>
+					
+				</div>
+                <div class="card-footer">
+                    <%= link_to 'See More', 'https://delky91.github.io/viajeschile/', class:"text-primary" %>
+                </div>
+			</div>
+			<div class="card">
+				<%= image_tag 'simon dice.png', class:"card-img-top" %>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">
+						Game made with Html, CSS, Js ans Jquery
+					</p>
+					
+				</div>
+                <div class="card-footer">
+                    <%= link_to 'See More', 'https://delky91.github.io/Simon_Dice/', class:"text-primary" %>
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
